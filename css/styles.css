@@ -300,3 +300,6 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
+.div-margin {
+  margin-bottom: 8px;
+}

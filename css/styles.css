@@ -126,3 +126,30 @@ a:focus {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.div-header {
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+}
+.logo-content {
+  margin-right: 76px;
+}
+.ul-content {
+  display: flex;
+  gap: 40px;
+}
+.li-content {
+  padding: 24px 0;
+}

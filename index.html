@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework</title>
+    <!-- reset css -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <!-- reset css -->
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,13 +33,13 @@
             >Web<span class="logo-span">Studio</span></a
           >
           <ul class="ul-content">
-            <li class="li-content li-content-padding">
+            <li class="li-content">
               <a href="./index.html" class="liste">Studio</a>
             </li>
-            <li class="li-content li-content-padding">
+            <li class="li-content">
               <a href="" class="liste">Portfolio</a>
             </li>
-            <li class="li-content li-content-padding">
+            <li class="li-content">
               <a href="" class="liste">Contacts</a>
             </li>
           </ul>
@@ -61,13 +63,16 @@
     </header>
 
     <main>
+      <!-- slider section starts -->
       <section class="slider">
         <div class="section-div container">
           <h1 class="baslik">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
+      <!-- slider section end -->
 
+      <!-- content section starts -->
       <section class="section-content">
         <div class="container">
           <h2 class="visually-hidden">İnformation Section</h2>
@@ -103,112 +108,134 @@
           </ul>
         </div>
       </section>
+      <!-- content section end -->
 
-      <section class="section">
-        <h2 class="baslik-iki baslik-content">Our Team</h2>
-        <ul class="ul-content-information">
-          <li class="genel information-li border-list">
-            <img src="./images/mark.jpg" alt="mark" width="264" />
-            <div class="employee">
-              <h3 class="baslik-uc">Mark Guerrero</h3>
-              <p class="paragraf">Product Designer</p>
-            </div>
-          </li>
-          <li class="genel information-li border-list">
-            <img src="./images/tom.jpg" alt="tom" width="264" />
-            <div class="employee">
-              <h3 class="baslik-uc">Tom Ford</h3>
-              <p class="paragraf">Frontend Developer</p>
-            </div>
-          </li>
-          <li class="genel information-li border-list">
-            <img src="./images/camila.jpg" alt="camila" width="264" />
-            <div class="employee">
-              <h3 class="baslik-uc">Camila Garcia</h3>
-              <p class="paragraf">Marketing</p>
-            </div>
-          </li>
-          <li class="genel information-li border-list">
-            <img src="./images/daniel.jpg" alt="daniel" width="264" />
-            <div class="employee">
-              <h3 class="baslik-uc">Daniel Wilson</h3>
-              <p class="paragraf">UI Designer</p>
-            </div>
-          </li>
-        </ul>
+      <!-- our team section starts -->
+      <section class="our-team-section">
+        <div class="container">
+          <h2 class="baslik-iki baslik-content">Our Team</h2>
+          <ul class="ul-content-information">
+            <li class="genel information-li">
+              <img src="./images/mark.jpg" alt="mark" width="264" />
+              <div class="employee">
+                <h3 class="baslik-uc">Mark Guerrero</h3>
+                <p class="paragraf">Product Designer</p>
+              </div>
+            </li>
+            <li class="genel information-li">
+              <img src="./images/tom.jpg" alt="tom" width="264" />
+              <div class="employee">
+                <h3 class="baslik-uc">Tom Ford</h3>
+                <p class="paragraf">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="genel information-li">
+              <img src="./images/camila.jpg" alt="camila" width="264" />
+              <div class="employee">
+                <h3 class="baslik-uc">Camila Garcia</h3>
+                <p class="paragraf">Marketing</p>
+              </div>
+            </li>
+            <li class="genel information-li">
+              <img src="./images/daniel.jpg" alt="daniel" width="264" />
+              <div class="employee">
+                <h3 class="baslik-uc">Daniel Wilson</h3>
+                <p class="paragraf">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
+      <!-- our section end -->
 
-      <section>
+      <!-- our portfolio starts -->
+      <section class="our-portfolio-section">
         <h2 class="baslik-iki baslik-content">Our Portfolio</h2>
         <div class="container">
           <ul class="ul-content-information">
-            <li class="information-li border-list">
+            <li class="our-portfolio-li">
               <img
                 src="./images/banking-app.jpg"
                 alt="banking-app"
                 width="360"
               />
-              <h3 class="baslik-uc">Banking App</h3>
-              <p class="contact">App</p>
+              <div class="our-portfolio-name">
+                <h3 class="our-portfolio-title">Banking App</h3>
+                <p class="our-portfolio-text">App</p>
+              </div>
             </li>
-            <li class="information-li border-list">
+            <li class="our-portfolio-li">
               <img
                 src="./images/cashless-payment.jpg"
                 alt="cashless-payment"
                 width="360"
               />
-              <h3 class="baslik-uc">Cashless Payment</h3>
-              <p class="contact">Marketing</p>
+              <div class="our-portfolio-name">
+                <h3 class="our-portfolio-title">Cashless Payment</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
-            <li class="information-li border-list">
+            <li class="our-portfolio-li">
               <img
                 src="./images/meditation-app.jpg"
                 alt="meditation-app"
                 width="360"
               />
-              <h3 class="baslik-uc">Meditation App</h3>
-              <p class="contact">App</p>
+              <div class="our-portfolio-name">
+                <h3 class="our-portfolio-title">Meditation App</h3>
+                <p class="our-portfolio-text">App</p>
+              </div>
             </li>
-            <li class="information-li border-list">
+            <li class="our-portfolio-li">
               <img
                 src="./images/taxi-service.jpg"
                 alt="taxi-service"
                 width="360"
               />
-              <h3 class="baslik-uc">Taxi Service</h3>
-              <p class="contact">Marketing</p>
+              <div class="our-portfolio-name">
+                <h3 class="our-portfolio-title">Taxi Service</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
-            <li class="information-li border-list">
+            <li class="our-portfolio-li">
               <img
                 src="./images/screen-illustrarions.jpg"
                 alt="screen-illustrations"
                 width="360"
               />
-              <h3 class="baslik-uc">Screen Illustrations</h3>
-              <p class="contact">Design</p>
+              <div class="our-portfolio-name">
+                <h3 class="our-portfolio-title">Screen Illustrations</h3>
+                <p class="our-portfolio-text">Design</p>
+              </div>
             </li>
-            <li class="information-li border-list">
+            <li class="our-portfolio-li">
               <img
                 src="./images/online-courses.jpg"
                 alt="online-courses"
                 width="360"
               />
-              <h3 class="baslik-uc">Online Courses</h3>
-              <p class="contact">Marketing</p>
+              <div class="our-portfolio-name">
+                <h3 class="our-portfolio-title">Online Courses</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+      <!-- our portfolio section end -->
     </main>
-
+    <!-- footer section starts -->
     <footer class="footer">
-      <a href="./index.html" class="logo"
-        >Web<span class="logo-span-iki">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-span-iki">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
+    <!-- footer section end -->
   </body>
 </html>

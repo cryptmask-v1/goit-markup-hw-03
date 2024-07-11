@@ -137,8 +137,7 @@ a:focus {
   margin: 0 auto;
   padding: 0 15px;
 }
-.div-header {
-}
+
 .nav-content {
   display: flex;
   align-items: center;
@@ -152,4 +151,7 @@ a:focus {
 }
 .li-content {
   padding: 24px 0;
+}
+img {
+  display: block;
 }

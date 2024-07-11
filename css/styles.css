@@ -190,7 +190,7 @@ img {
   gap: 24px;
 }
 .information-li {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .baslik-content {
   margin-bottom: 72px;
@@ -202,5 +202,5 @@ img {
   padding: 32px 0;
 }
 .li-content-padding {
-  padding: 24px 0;
+  padding: 24px;
 }

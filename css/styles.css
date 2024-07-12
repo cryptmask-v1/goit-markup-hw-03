@@ -181,6 +181,7 @@ a:focus {
 .nav-content {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .logo-content {
   margin-right: 76px;

@@ -14,7 +14,11 @@
 
   /* general settings */
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -89,7 +93,6 @@ button:focus {
 .header-nav-content {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .header-logo-span {
   font-weight: 700;
@@ -180,7 +183,6 @@ button:focus {
   width: calc((100% - 72px) / 4);
 }
 .content-title {
-  text-align: center;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;

@@ -113,6 +113,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .address {
   font-style: normal;
@@ -124,6 +125,13 @@ button:focus {
 }
 .logo-content {
   margin-right: 76px;
+}
+.address-li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 /* header section end*/

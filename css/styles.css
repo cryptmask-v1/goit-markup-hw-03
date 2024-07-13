@@ -196,7 +196,6 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 img {
   display: block;
@@ -312,5 +311,8 @@ img {
   color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+.li-content-padding {
   padding: 24px 0;
 }

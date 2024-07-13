@@ -81,14 +81,11 @@ button:focus {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  height: 72px;
 }
 .div-header {
   display: flex;
-  height: 100%;
-  margin: 0 auto;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 .header-nav-content {
   display: flex;
@@ -214,7 +211,7 @@ button:focus {
 .our-team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .our-team-list-item {
   background-color: #ffffff;

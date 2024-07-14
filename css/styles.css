@@ -113,7 +113,6 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 .address {
   font-style: normal;
@@ -229,7 +228,7 @@ button:focus {
   border-radius: 0px 0px 4px 4px;
 }
 .our-team-employee {
-  padding: 34px 0;
+  padding: 32px 0;
 }
 .our-team-content {
   text-align: center;
@@ -277,6 +276,7 @@ button:focus {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin-bottom: 8px;
 }
 .our-portfolio-li {
   width: calc((100% - 48px) / 3);
@@ -317,6 +317,7 @@ button:focus {
 .liste {
   font-weight: 500;
   font-size: 16px;
+  padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
